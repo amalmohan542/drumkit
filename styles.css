@@ -1,16 +1,19 @@
-body {
+.container-fluid{
   text-align: center;
   background-color: #204051;
+  width: 100%;
+  padding: 3rem;
 }
 
-h1 {
+#title{
+  font-family: 'Lobster', cursive;
+  padding-top: 3rem;
   font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-decoration-color: aliceblue;
+  color: rgb(255, 255, 255);
 
+  text-shadow: 3px 0 rgb(15, 15, 15);
 }
-
 footer {
   color: #77d8d8;
   
@@ -51,19 +54,12 @@ footer {
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: red;
-  opacity: 0.8;
-}
-
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
 }
 
-.red {
-  color: red;
-}
+
 
 .drum {
   outline: none;
@@ -80,5 +76,5 @@ footer {
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  
 }
