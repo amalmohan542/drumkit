@@ -1,4 +1,8 @@
+html{
+  background-color: #204051;
+}
 .container-fluid{
+  
   text-align: center;
   background-color: #204051;
   width: 100%;
@@ -7,7 +11,7 @@
 
 #title{
   font-family: 'Lobster', cursive;
-  padding-top: 3rem;
+  
   font-size: 5rem;
   text-decoration-color: aliceblue;
   color: rgb(255, 255, 255);
